@@ -3,13 +3,12 @@
     "selected": 1
   },
   "1 error pnpm": {
-    "code": "ERR_PNPM_CANNOT_REMOVE_MISSING_DEPS",
-    "hint": "Available dependencies: pnpm, vue-cli",
+    "code": "ERR_PNPM_NO_SCRIPT",
     "err": {
       "name": "pnpm",
-      "message": "Cannot remove 'vite': no such dependency found in 'dependencies'",
-      "code": "ERR_PNPM_CANNOT_REMOVE_MISSING_DEPS",
-      "stack": "pnpm: Cannot remove 'vite': no such dependency found in 'dependencies'\n    at Object.handler (D:\\Users\\mo\\AppData\\Roaming\\nvm\\v16.6.0\\node_modules\\pnpm\\dist\\pnpm.cjs:122819:15)\n    at async D:\\Users\\mo\\AppData\\Roaming\\nvm\\v16.6.0\\node_modules\\pnpm\\dist\\pnpm.cjs:182795:21\n    at async run (D:\\Users\\mo\\AppData\\Roaming\\nvm\\v16.6.0\\node_modules\\pnpm\\dist\\pnpm.cjs:182769:34)\n    at async runPnpm (D:\\Users\\mo\\AppData\\Roaming\\nvm\\v16.6.0\\node_modules\\pnpm\\dist\\pnpm.cjs:182987:5)\n    at async D:\\Users\\mo\\AppData\\Roaming\\nvm\\v16.6.0\\node_modules\\pnpm\\dist\\pnpm.cjs:182979:7"
+      "message": "Missing script: dev",
+      "code": "ERR_PNPM_NO_SCRIPT",
+      "stack": "pnpm: Missing script: dev\n    at Object.handler (D:\\Users\\mo\\AppData\\Roaming\\nvm\\v16.6.0\\node_modules\\pnpm\\dist\\pnpm.cjs:178251:15)\n    at async D:\\Users\\mo\\AppData\\Roaming\\nvm\\v16.6.0\\node_modules\\pnpm\\dist\\pnpm.cjs:182795:21\n    at async run (D:\\Users\\mo\\AppData\\Roaming\\nvm\\v16.6.0\\node_modules\\pnpm\\dist\\pnpm.cjs:182769:34)\n    at async runPnpm (D:\\Users\\mo\\AppData\\Roaming\\nvm\\v16.6.0\\node_modules\\pnpm\\dist\\pnpm.cjs:182987:5)\n    at async D:\\Users\\mo\\AppData\\Roaming\\nvm\\v16.6.0\\node_modules\\pnpm\\dist\\pnpm.cjs:182979:7"
     }
   }
 }
